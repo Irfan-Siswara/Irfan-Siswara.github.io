@@ -21,11 +21,11 @@ $light: #fcfcfc;
 
 /** Layout Colors **/
 $default-section-background: #f1eff3;
-$loader-background: #261841;
+$loader-background: #13335c;
 $text-default-color: #140f29;
 
 /** Nav Colors **/
-$nav-background: #140f29;
+$nav-background: rgb(17, 58, 112);
 $nav-background-selected: lighten($nav-background, 5%);
 $nav-avatar-border-color: lighten($nav-background, 10%);
 $nav-highlight: lighten($primary, 30%);

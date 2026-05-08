@@ -49,7 +49,7 @@ export const useEmails = () => {
             from_email: fromEmail,
             custom_subject: customSubject,
             custom_source: utils.getAbsoluteLocation(),
-            custom_source_name: "Vue Resume",
+            custom_source_name: "Irfan Siswara Resume",
             message: message
         }
 

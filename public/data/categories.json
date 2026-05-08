@@ -4,40 +4,32 @@
             "id": "home",
             "faIcon": "fa-regular fa-user",
             "locales": {
-                "en": {"nav_label": "Home"},
-                "es": {"nav_label": "Inicio"},
-                "fr": {"nav_label": "Accueil"},
-                "zh": {"nav_label": "主页"}
+                "id": {"nav_label": "Beranda"},
+                "en": {"nav_label": "Home"}
             }
         },
         {
             "id": "background",
             "faIcon": "fa-regular fa-clock",
             "locales": {
-                "en": {"nav_label": "Background"},
-                "es": {"nav_label": "Historial"},
-                "fr": {"nav_label": "Historique"},
-                "zh": {"nav_label": "背景"}
+                "id": {"nav_label": "Latar Belakang"},
+                "en": {"nav_label": "Background"}
             }
         },
         {
             "id": "showcase",
             "faIcon": "fa-regular fa-folder-open",
             "locales": {
-                "en": {"nav_label": "Showcase"},
-                "es": {"nav_label": "Vitrina"},
-                "fr": {"nav_label": "Vitrine"},
-                "zh": {"nav_label": "展示"}
+                "id": {"nav_label": "Portofolio"},
+                "en": {"nav_label": "Showcase"}
             }
         },
         {
             "id": "more",
             "faIcon": "fa-regular fa-object-ungroup",
             "locales": {
-                "en": {"nav_label": "More"},
-                "es": {"nav_label": "Más"},
-                "fr": {"nav_label": "Plus"},
-                "zh": {"nav_label": "查看更多"}
+                "id": {"nav_label": "Lainnya"},
+                "en": {"nav_label": "More"}
             }
         }
     ]
