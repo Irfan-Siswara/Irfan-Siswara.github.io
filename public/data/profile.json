@@ -3,11 +3,11 @@
     "profilePictureUrl": "images/pictures/avatar.jpg",
     "locales": {
         "id": {
-            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "credits": "Terakhir diperbarui <strong>9 Mei 2026</strong>",
             "role": "Pengembang Fullstack"
         },
         "en": {
-            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "credits": "Last updated <strong>9 May 2026</strong>",
             "role": "Fullstack Developer"
         }
     },
@@ -48,7 +48,7 @@
             "value": "@irfan-siswara",
             "valueShort": "@irfan-siswara",
             "faIcon": "fa-brands fa-linkedin",
-            "href": "linkedin.com/in/irfan-siswara",
+            "href": "https://linkedin.com/in/irfan-siswara",
             "copy": false
         },
         {
