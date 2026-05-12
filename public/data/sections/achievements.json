@@ -4,150 +4,52 @@
             "id": 1,
             "component": "ArticleThread",
             "locales": {
-                "en": {"title": "Awards"},
-                "es": {"title": "Premios"},
-                "fr": {"title": "Prix"},
-                "zh": {"title": "奖项"}
+                "id": {
+                "title": "Penghargaan"
+                },
+                "en": {
+                "title": "Awards"
+                }
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "desc"
+                "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2018, "month": 8},
-                    "fallbackFaIcon": "fa-solid fa-university",
+                    "dateStart": {
+                        "year": 2019,
+                        "month": 9
+                    },
+                    "fallbackFaIcon": "fa-solid fa-award",
                     "fallbackFaIconColor": null,
                     "locales": {
+                        "id": {
+                            "title": "Finalis KMIPN 2019",
+                            "description": "Menjadi <strong>Finalis</strong> pada ajang <strong>Kompetisi Mahasiswa Bidang Informatika Politeknik Nasional (KMIPN) 2019</strong> bersama tim <strong>STANDALONE</strong> yang diselenggarakan di <strong>Politeknik Caltex Riau</strong>.",
+                            "institution": "KMIPN 2019"
+                        },
                         "en": {
-                            "title": "Best Graduation Project",
-                            "description": "Outstanding work on graduation project; recognized for innovation and impact.",
-                            "institution": "Harvard University"
-                        },
-                        "es": {
-                            "title": "Mejor Proyecto de Graduación",
-                            "description": "Trabajo destacado en proyecto de graduación; reconocido por innovación e impacto.",
-                            "institution": "Harvard University"
-                        },
-                        "fr": {
-                            "title": "Meilleur Projet de Fin d'Études",
-                            "description": "Travail exceptionnel sur le projet de fin d'études; reconnu pour l'innovation et l'impact.",
-                            "institution": "Harvard University"
-                        },
-                        "zh": {
-                            "title": "最佳毕业项目",
-                            "description": "在毕业项目上的杰出工作；因创新和影响力受到认可。",
-                            "institution": "Harvard University"
+                            "title": "KMIPN 2019 Finalist",
+                            "description": "Awarded as a <strong>Finalist</strong> in the <strong>National Polytechnic Informatics Student Competition (KMIPN) 2019</strong> with team <strong>STANDALONE</strong>, hosted by <strong>Politeknik Caltex Riau</strong>.",
+                            "institution": "KMIPN 2019"
                         }
                     },
                     "links": []
-                },
-
-                {
-                    "id": 2,
-                    "dateStart": {"year": 2019, "month": 9},
-                    "fallbackFaIcon": "fa-solid fa-university",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "2nd Place – Alumni UX Hackathon",
-                            "description": "Secured 2nd place in Harvard's Alumni UX hackathon; demonstrated creative problem-solving.",
-                            "institution": "Harvard University"
-                        },
-                        "es": {
-                            "title": "2do Lugar - Hackathon Alumni de UX",
-                            "description": "Obtuvo el 2do lugar en el Hackathon Alumni de UX de Harvard; demostró solución creativa de problemas.",
-                            "institution": "Universidad de Harvard"
-                        },
-                        "fr": {
-                            "title": "2e Place - Hackathon UX des Anciens",
-                            "description": "Obtenu la 2e place au hackathon UX des anciens de Harvard; démontré la résolution créative de problèmes.",
-                            "institution": "Université Harvard"
-                        },
-                        "zh": {
-                            "title": "第二名 - 校友UX黑客马拉松",
-                            "description": "在哈佛校友UX黑客马拉松中获得第二名；展示了创造性问题解决能力。",
-                            "institution": "哈佛大学"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://harvard.com", "stringKey": "view_more_info"}
-                    ]
-                },
-
-                {
-                    "id": 3,
-                    "dateStart": {"year": 2020, "month": 11},
-                    "fallbackFaIcon": "fa-solid fa-house-laptop",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "1st Place – Adobe Creative Jam",
-                            "description": "Achieved 1st place in Adobe Creative Jam; showcased design excellence and collaboration.",
-                            "institution": "Adobe Inc."
-                        },
-                        "es": {
-                            "title": "1er Lugar - Adobe Creative Jam",
-                            "description": "Obtuvo el 1er lugar en Adobe Creative Jam; mostró excelencia en diseño y colaboración.",
-                            "institution": "Adobe Inc."
-                        },
-                        "fr": {
-                            "title": "1ère Place - Adobe Creative Jam",
-                            "description": "Obtenu la 1ère place à Adobe Creative Jam; mis en avant l'excellence en design et la collaboration.",
-                            "institution": "Adobe Inc."
-                        },
-                        "zh": {
-                            "title": "第一名 - Adobe创意盛宴",
-                            "description": "在Adobe创意盛宴中获得第一名；展示了卓越的设计和合作。",
-                            "institution": "Adobe Inc."
-                        }
-                    },
-                    "links": []
-                },
-
-                {
-                    "id": 4,
-                    "dateStart": {"year": 2023, "month": 3},
-                    "fallbackFaIcon": "fa-solid fa-newspaper",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Article Mention – UX Contribution",
-                            "description": "Featured in Forbes for outstanding UX contributions; impactful designs and insights.",
-                            "institution": "Forbes"
-                        },
-                        "es": {
-                            "title": "Mención en Artículo - Contribución a UX",
-                            "description": "Destacado en Forbes por sobresalientes contribuciones a UX; diseños e ideas impactantes.",
-                            "institution": "Forbes"
-                        },
-                        "fr": {
-                            "title": "Mention d'Article - Contribution UX",
-                            "description": "Mis en avant dans Forbes pour d'excellentes contributions UX ; designs et idées impactantes.",
-                            "institution": "Forbes"
-                        },
-                        "zh": {
-                            "title": "文章提及 - 用户体验贡献",
-                            "description": "在福布斯杂志上因出色的用户体验贡献而受到关注；设计和见解产生了影响。",
-                            "institution": "Forbes"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://forbes.com", "stringKey": "view_more_info"}
-                    ]
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": {"title": "Certifications"},
-                "es": {"title": "Certificaciones"},
-                "fr": {"title": "Certifications"},
-                "zh": {"title": "获得的证书"}
+                "id": {
+                "title": "Sertifikasi"
+                },
+                "en": {
+                "title": "Certifications"
+                }
             },
             "settings": {
                 "order_items_by": "id",
@@ -156,97 +58,164 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2018, "month": 8},
-                    "fallbackFaIcon": "fa-brands fa-google",
+                    "dateStart": {
+                    "year": 2023,
+                    "month": 10
+                    },
+                    "fallbackFaIcon": "fa-solid fa-cloud",
                     "fallbackFaIconColor": null,
                     "locales": {
-                        "en": {
-                            "title": "Google UX Design Certification",
-                            "description": "Certified by Google in UX design; demonstrated expertise in user-centered design.",
-                            "institution": "Google"
-                        },
-                        "es": {
-                            "title": "Certificación de Diseño UX de Google",
-                            "description": "Certificado por Google en diseño UX; demostró experiencia en diseño centrado en el usuario.",
-                            "institution": "Google"
-                        },
-                        "fr": {
-                            "title": "Certification Google UX Design",
-                            "description": "Certifié par Google en conception UX ; a démontré une expertise en design centré sur l'utilisateur.",
-                            "institution": "Google"
-                        },
-                        "zh": {
-                            "title": "Google用户体验设计认证",
-                            "description": "通过Google用户体验设计认证；展示了用户中心设计的专业知识。",
-                            "institution": "Google"
-                        }
+                    "id": {
+                        "title": "Belajar Dasar-Dasar DevOps",
+                        "description": "Mempelajari konsep dasar <strong>DevOps</strong>, deployment workflow, dan <strong>CI/CD pipeline</strong>.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Fundamentals of DevOps",
+                        "description": "Learned fundamental concepts of <strong>DevOps</strong>, deployment workflows, and <strong>CI/CD pipelines</strong>.",
+                        "institution": "Dicoding Indonesia"
+                    }
                     },
                     "links": [
-                        {"href": "https://google.com", "stringKey": "view_certification"}
+                    {
+                        "href": "https://www.dicoding.com/certificates/0LZ0QRJONZ65",
+                        "stringKey": "view_certification"
+                    }
                     ]
                 },
-
                 {
                     "id": 2,
-                    "dateStart": {"year": 2019, "month": 4},
-                    "fallbackFaIcon": "fa-solid fa-house-laptop",
+                    "dateStart": {
+                    "year": 2025,
+                    "month": 8
+                    },
+                    "fallbackFaIcon": "fa-solid fa-microchip",
                     "fallbackFaIconColor": null,
                     "locales": {
-                        "en": {
-                            "title": "UI/UX Nanodegree",
-                            "description": "Completed comprehensive UI/UX nanodegree on Udemy; acquired practical skills.",
-                            "institution": "Udacity"
-                        },
-                        "es": {
-                            "title": "Nanogrado en UI/UX",
-                            "description": "Completó el nanogrado completo en UI/UX en Udemy; adquirió habilidades prácticas.",
-                            "institution": "Udacity"
-                        },
-                        "fr": {
-                            "title": "Nanodiplôme UI/UX",
-                            "description": "A suivi le nanodiplôme complet en UI/UX sur Udemy ; a acquis des compétences pratiques.",
-                            "institution": "Udacity"
-                        },
-                        "zh": {
-                            "title": "UI/UX纳米学位",
-                            "description": "在Udemy完成了全面的UI/UX纳米学位；获得了实际技能。",
-                            "institution": "Udacity"
-                        }
+                    "id": {
+                        "title": "Belajar Dasar AI",
+                        "description": "Mempelajari konsep dasar <strong>Artificial Intelligence</strong> dan implementasinya dalam pengembangan software.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Fundamentals of AI",
+                        "description": "Learned fundamental concepts of <strong>Artificial Intelligence</strong> and software implementation.",
+                        "institution": "Dicoding Indonesia"
+                    }
                     },
                     "links": [
-                        {"href": "https://udemy.com", "stringKey": "view_certification"}
+                    {
+                        "href": "https://www.dicoding.com/certificates/1OP8J75QLPQK",
+                        "stringKey": "view_certification"
+                    }
                     ]
                 },
-
                 {
                     "id": 3,
-                    "dateStart": {"year": 2023, "month": 6},
-                    "fallbackFaIcon": "fa-brands fa-google",
+                    "dateStart": {
+                    "year": 2026,
+                    "month": 1
+                    },
+                    "fallbackFaIcon": "fa-brands fa-python",
                     "fallbackFaIconColor": null,
                     "locales": {
-                        "en": {
-                            "title": "Material Design Certification",
-                            "description": "Earned Material Design certification; demonstrated proficiency in modern design principles.",
-                            "institution": "Google"
-                        },
-                        "es": {
-                            "title": "Certificación de Material Design",
-                            "description": "Obtuvo certificación de Material Design; demostró competencia en principios de diseño moderno.",
-                            "institution": "Google"
-                        },
-                        "fr": {
-                            "title": "Certification Material Design",
-                            "description": "A obtenu la certification Material Design ; a démontré sa maîtrise des principes de design modernes.",
-                            "institution": "Google"
-                        },
-                        "zh": {
-                            "title": "Material Design认证",
-                            "description": "获得了Material Design认证；展示了对现代设计原则的熟练掌握。",
-                            "institution": "Google"
-                        }
+                    "id": {
+                        "title": "Memulai Pemrograman dengan Python",
+                        "description": "Mempelajari dasar pemrograman menggunakan <strong>Python</strong> untuk pengembangan aplikasi dan data processing.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Getting Started with Python",
+                        "description": "Learned programming fundamentals using <strong>Python</strong> for application development and data processing.",
+                        "institution": "Dicoding Indonesia"
+                    }
                     },
                     "links": [
-                        {"href": "https://google.com", "stringKey": "view_certification"}
+                    {
+                        "href": "https://www.dicoding.com/certificates/53XEK6NMKXRN",
+                        "stringKey": "view_certification"
+                    }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "dateStart": {
+                    "year": 2026,
+                    "month": 1
+                    },
+                    "fallbackFaIcon": "fa-solid fa-brain",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                    "id": {
+                        "title": "Prompt Engineering untuk Software Developer",
+                        "description": "Mempelajari teknik <strong>Prompt Engineering</strong> dan implementasi AI untuk software development.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Prompt Engineering for Software Developers",
+                        "description": "Learned <strong>Prompt Engineering</strong> techniques and AI implementation for software development.",
+                        "institution": "Dicoding Indonesia"
+                    }
+                    },
+                    "links": [
+                    {
+                        "href": "https://www.dicoding.com/certificates/L4PQ2DM7OZO1",
+                        "stringKey": "view_certification"
+                    }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "dateStart": {
+                    "year": 2026,
+                    "month": 1
+                    },
+                    "fallbackFaIcon": "fa-solid fa-chart-line",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                    "id": {
+                        "title": "Belajar Penerapan Data Science dengan Microsoft Fabric",
+                        "description": "Mempelajari implementasi <strong>Data Science</strong> dan <strong>Machine Learning</strong> menggunakan <strong>Microsoft Fabric</strong>.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Data Science with Microsoft Fabric",
+                        "description": "Learned <strong>Data Science</strong> and <strong>Machine Learning</strong> implementation using <strong>Microsoft Fabric</strong>.",
+                        "institution": "Dicoding Indonesia"
+                    }
+                    },
+                    "links": [
+                    {
+                        "href": "https://www.dicoding.com/certificates/81P250J1NPOY",
+                        "stringKey": "view_certification"
+                    }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "dateStart": {
+                    "year": 2026,
+                    "month": 1
+                    },
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                    "id": {
+                        "title": "Membangun Aplikasi Gen AI dengan Microsoft Azure",
+                        "description": "Mempelajari pengembangan aplikasi <strong>Generative AI</strong> menggunakan layanan <strong>Microsoft Azure</strong>.",
+                        "institution": "Dicoding Indonesia"
+                    },
+                    "en": {
+                        "title": "Building Gen AI Applications with Microsoft Azure",
+                        "description": "Learned how to build <strong>Generative AI</strong> applications using <strong>Microsoft Azure</strong> services.",
+                        "institution": "Dicoding Indonesia"
+                    }
+                    },
+                    "links": [
+                    {
+                        "href": "https://www.dicoding.com/certificates/0LZ05VEQ3X65",
+                        "stringKey": "view_certification"
+                    }
                     ]
                 }
             ]

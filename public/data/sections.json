@@ -115,13 +115,13 @@
                 "id": {
                     "title": "*Pencapaian* Karier",
                     "title_short": null,
-                    "description": "Perjalanan saya dipenuhi proses belajar, pengembangan skill, dan partisipasi dalam berbagai kegiatan hingga mendapatkan beberapa penghargaan dan sertifikasi.",
+                    "description": "Perjalanan karier saya sebagai Full-Stack Developer dipenuhi dengan proses belajar berkelanjutan, pengembangan skill, serta pengalaman mengerjakan berbagai project enterprise, cloud, DevOps, dan AI hingga memperoleh beberapa sertifikasi profesional.",
                     "nav_label": "Pencapaian"
                 },
                 "en": {
                     "title": "Career *Achievements*",
                     "title_short": null,
-                    "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:",
+                    "description": "My journey as a Full-Stack Developer has been driven by continuous learning, skill development, and hands-on experience across enterprise systems, cloud computing, DevOps, and AI technologies, resulting in multiple professional certifications and achievements.",
                     "nav_label": "Achievements"
                 }
             }
@@ -136,13 +136,13 @@
                 "id": {
                     "title": "*Hobi* & Minat",
                     "title_short": null,
-                    "description": "Kurang lebih seperti ini saya menghabiskan waktu luang:",
+                    "description": "Di luar pekerjaan, saya senang mengeksplorasi teknologi baru, membangun side project, mempelajari AI dan cloud computing, serta menghabiskan waktu untuk gaming dan hiburan.",
                     "nav_label": "Hobi"
                 },
                 "en": {
                     "title": "*Hobbies* & Interests",
                     "title_short": null,
-                    "description": "This is pretty much how I spend my free time:",
+                    "description": "Outside of work, I enjoy exploring new technologies, building side projects, learning about AI and cloud computing, and spending time on gaming and entertainment.",
                     "nav_label": "Hobbies"
                 }
             }
