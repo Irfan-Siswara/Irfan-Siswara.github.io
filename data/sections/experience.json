@@ -21,7 +21,7 @@
                             "title": "Full-Stack Developer Intern",
                             "description": "Menganalisis kebutuhan bisnis, mendesain database relasional, membuat wireframe UI/UX dan interactive prototype menggunakan <strong>Figma</strong>, serta mengimplementasikan solusi frontend dan backend untuk aplikasi bisnis berbasis web.",
                             "list": {
-                                "title": "Tanggung Jawab Utama",
+                                "title": "Tanggung Jawab Utama:",
                                 "items": [
                                     "Mengembangkan fitur frontend dan backend menggunakan <strong>Laravel</strong> dan <strong>MySQL</strong>.",
                                     "Mendesain struktur database relasional dan dokumentasi project.",
@@ -38,7 +38,7 @@
                             "title": "Full-Stack Developer Intern",
                             "description": "Analyzed business requirements, designed relational databases, created UI/UX wireframes and interactive prototypes using <strong>Figma</strong>, and implemented frontend and backend solutions for web-based business applications.",
                             "list": {
-                                "title": "Key Responsibilities",
+                                "title": "Key Responsibilities:",
                                 "items": [
                                     "Developed frontend and backend application features using <strong>Laravel</strong> and <strong>MySQL</strong>.",
                                     "Designed relational database structures and project documentation.",
@@ -65,7 +65,7 @@
                             "title": "Full-Stack Developer",
                             "description": "Mengembangkan dan memelihara aplikasi web dan mobile end-to-end yang mencakup sistem frontend dan backend, integrasi API, manajemen database, serta deployment workflow untuk berbagai solusi enterprise dan client.",
                             "list": {
-                                "title": "Tanggung Jawab Utama",
+                                "title": "Tanggung Jawab Utama:",
                                 "items": [
                                     "Membangun aplikasi enterprise menggunakan <strong>Vue.js</strong>, <strong>React.js</strong>, <strong>Laravel</strong>, dan <strong>FastAPI</strong>.",
                                     "Melakukan integrasi API, database, dan third-party enterprise services.",
@@ -76,13 +76,13 @@
                             "province": "Bandung",
                             "country": "Indonesia",
                             "institution": "Bee Solution Partners",
-                            "tags": ["Vue.js","React.js","Laravel","FastAPI","Android","SQL Server"]
+                            "tags": ["Vue.js","React.js","Laravel","FastAPI","Android","SQL Server","Microservices","Micro-frontend","CI/CD"]
                         },
                         "en": {
                             "title": "Full-Stack Developer",
                             "description": "Developed and maintained end-to-end web and mobile applications, covering frontend and backend systems, API integrations, database management, and deployment workflows for enterprise and client-based solutions.",
                             "list": {
-                                "title": "Key Responsibilities",
+                                "title": "Key Responsibilities:",
                                 "items": [
                                     "Built enterprise applications using <strong>Vue.js</strong>, <strong>React.js</strong>, <strong>Laravel</strong>, and <strong>FastAPI</strong>.",
                                     "Integrated APIs, databases, and third-party enterprise services.",
@@ -93,7 +93,7 @@
                             "province": "Bandung",
                             "country": "Indonesia",
                             "institution": "Bee Solution Partners",
-                            "tags": ["Vue.js","React.js","Laravel","FastAPI","Android","SQL Server"]
+                            "tags": ["Vue.js","React.js","Laravel","FastAPI","Android","SQL Server","Microservices","Micro-frontend","CI/CD"]
                         }
                     }
                 },
@@ -105,76 +105,83 @@
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
                     "locales": {
+                        "id": {
+                            "title": "Full-Stack Developer",
+                            "description": "Bertanggung jawab dalam membangun dan memelihara aplikasi enterprise untuk sistem manufacturing di <strong>TMMIN (Toyota Motor Manufacturing Indonesia)</strong>. Terlibat dalam pengembangan frontend dan backend, integrasi API, pengolahan data, optimasi sistem, serta deployment ke production environment menggunakan arsitektur microservices dan workflow CI/CD.",
+                            "list": {
+                                "title": "Tanggung Jawab Utama:",
+                                "items": [
+                                    "Mengembangkan aplikasi enterprise berbasis web dan desktop menggunakan <strong>Vue.js</strong>, <strong>Express.js</strong>.",
+                                    "Membangun dan memelihara REST API dan ERP manufacturing system.",
+                                    "Mengelola deployment workflow dan infrastruktur menggunakan <strong>Docker</strong>, <strong>Kubernetes</strong>.",
+                                    "Melakukan integrasi antar sistem enterprise, optimasi performa aplikasi, serta memastikan reliability, scalability, dan maintainability sistem production."
+                                ]
+                            },
+                            "province": "Jakarta Selatan",
+                            "country": "Indonesia",
+                            "institution": "PT. Prasma Daya Reka",
+                            "tags": ["Vue.js","Express.js","SQL Server","Docker","Kubernetes","Microservices","Micro-frontend","CI/CD"]
+                        },
                         "en": {
                             "title": "Full-Stack Developer",
-                            "description": "Led the design team in creating <strong>innovative user experiences</strong> for Apple's software products, focusing on enhancing usability and accessibility. Worked closely with product managers and engineers to develop design solutions that meet user needs and business objectives.",
+                            "description": "Responsible for building and maintaining enterprise applications for manufacturing systems at <strong>TMMIN (Toyota Motor Manufacturing Indonesia)</strong>. Involved in frontend and backend development, API integration, data processing, system optimization, and production deployments using microservices architecture and CI/CD workflows.",
                             "list": {
                                 "title": "Key Responsibilities:",
                                 "items": [
-                                    "Designed user interfaces and experiences for <strong>Apple's software products</strong>.",
-                                    "Conducted <strong>user research</strong> and usability testing to inform design decisions.",
-                                    "Collaborated with <strong>cross-functional teams</strong> to ensure design feasibility and implementation.",
-                                    "<strong>Mentored junior designers</strong> in UX design best practices."
+                                    "Developed enterprise web and desktop applications using <strong>Vue.js</strong>, <strong>Express.js</strong>.",
+                                    "Built and maintained REST APIs and ERP manufacturing systems.",
+                                    "Managed deployment workflows and infrastructure using <strong>Docker</strong>, <strong>Kubernetes</strong>.",
+                                    "Integrated enterprise systems, optimized application performance, and ensured production system reliability, scalability, and maintainability."
                                 ]
                             },
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple",
-                            "tags": ["Sketch", "Adobe XD", "InVision", "Design Strategy", "Cross-Functional Collaboration"]
+                            "province": "South Jakarta",
+                            "country": "Indonesia",
+                            "institution": "PT. Prasma Daya Reka",
+                            "tags": ["Vue.js","Express.js","SQL Server","Docker","Kubernetes","Microservices","Micro-frontend","CI/CD"]
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "dateStart": {"year": 2022, "month": 10},
-                    "dateEnd": {"year": 2024, "month": 9},
-                    "img": "images/places/logo-coursera.png",
+                    "dateStart": {"year": 2025, "month": 1},
+                    "dateEnd": {"year": 2026, "month": 4},
+                    "img": "images/places/logo-iglo.png",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
                     "locales": {
+                        "id": {
+                            "title": "Full-Stack Developer",
+                            "description": "Bertanggung jawab dalam membangun dan memelihara aplikasi enterprise untuk sistem manufacturing, logistics tracking, dan data warehouse di <strong>TMMIN (Toyota Motor Manufacturing Indonesia)</strong>. Terlibat dalam pengembangan frontend dan backend, integrasi API, pengolahan data, optimasi sistem, serta deployment ke production environment menggunakan arsitektur microservices dan workflow CI/CD.",
+                            "list": {
+                                "title": "Tanggung Jawab Utama:",
+                                "items": [
+                                    "Mengembangkan aplikasi enterprise berbasis web dan desktop menggunakan <strong>React.js</strong>, <strong>Express.js</strong>, <strong>ASP.NET</strong>, dan <strong>C# WinForms</strong>.",
+                                    "Membangun dan memelihara REST API, GPS tracking system, ERP manufacturing system, dan data warehouse platform berbasis Vehicle ID (VIN).",
+                                    "Mengelola deployment workflow dan infrastruktur menggunakan <strong>Docker</strong>, <strong>Kubernetes</strong>, <strong>Apache Kafka</strong>, <strong>Apache NiFi</strong>, dan <strong>Apache Airflow</strong>.",
+                                    "Melakukan integrasi antar sistem enterprise, optimasi performa aplikasi, serta memastikan reliability, scalability, dan maintainability sistem production."
+                                ]
+                            },
+                            "province": "Jakarta Barat",
+                            "country": "Indonesia",
+                            "institution": "Indocyber Global Teknologi",
+                            "tags": ["React.js","Express.js","SQL Server","PostgreSQL","ASP.NET","C#","WinForms","Docker","Kubernetes","Apache Kafka","Apache NiFi","Microservices","Micro-frontend","CI/CD"]
+                        },
                         "en": {
                             "title": "Full-Stack Developer",
-                            "description": "Taught advanced <strong>UX design principles</strong> and <strong>practices</strong> to undergraduate and graduate students, focusing on real-world applications and industry standards. Developed course materials and assignments that challenged students to think critically and creatively about user experience design.",
+                            "description": "Responsible for building and maintaining enterprise applications for manufacturing systems, logistics tracking, and data warehouse platforms at <strong>TMMIN (Toyota Motor Manufacturing Indonesia)</strong>. Involved in frontend and backend development, API integration, data processing, system optimization, and production deployments using microservices architecture and CI/CD workflows.",
                             "list": {
                                 "title": "Key Responsibilities:",
                                 "items": [
-                                    "Designed and delivered lectures on <strong>UX design methodologies</strong>.",
-                                    "<strong>Supervised student projects</strong> and provided constructive feedback.",
-                                    "Collaborated with industry professionals to <strong>keep course content relevant.</strong>",
-                                    "<strong>Mentored students</strong> in their career development and design portfolios."
+                                    "Developed enterprise web and desktop applications using <strong>React.js</strong>, <strong>Express.js</strong>, <strong>ASP.NET</strong>, and <strong>C# WinForms</strong>.",
+                                    "Built and maintained REST APIs, GPS tracking systems, ERP manufacturing systems, and Vehicle ID (VIN)-based data warehouse platforms.",
+                                    "Managed deployment workflows and infrastructure using <strong>Docker</strong>, <strong>Kubernetes</strong>, <strong>Apache Kafka</strong>, <strong>Apache NiFi</strong>, and <strong>Apache Airflow</strong>.",
+                                    "Integrated enterprise systems, optimized application performance, and ensured production system reliability, scalability, and maintainability."
                                 ]
                             },
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Coursera",
-                            "tags": ["Adobe XD", "Sketch", "Axure", "Educational Mentorship"]
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "dateStart": {"year": 2024, "month": 10},
-                    "dateEnd": {"string": "now"},
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-steam",
-                    "fallbackFaIconColor": "#222222",
-                    "locales": {
-                        "en": {
-                            "title": "Full-Stack Developer",
-                            "description": "Overseeing the development and implementation of <strong>Agile methodologies</strong> within the organization, ensuring projects are delivered on time and within scope. Collaborating with cross-functional teams to manage risks, resources, and stakeholder expectations effectively.",
-                            "list": {
-                                "title": "Key Responsibilities:",
-                                "items": [
-                                    "Facilitated <strong>Agile ceremonies</strong> such as sprint planning, daily stand-ups, and retrospectives.",
-                                    "Managed project timelines, budgets, and resources to ensure successful delivery.",
-                                    "Collaborated with product owners to prioritize and <strong>refine the product backlog</strong>.",
-                                    "<strong>Identified and mitigated</strong> project risks to ensure smooth execution."
-                                ]
-                            },
-                            "province": "San Francisco",
-                            "country": "US",
-                            "institution": "Steam Valve",
-                            "tags": ["Agile", "Scrum", "Leadership", "Risk Management"]
+                            "province": "West Jakarta",
+                            "country": "Indonesia",
+                            "institution": "Indocyber Global Teknologi",
+                            "tags": ["React.js","Express.js","SQL Server","PostgreSQL","ASP.NET","C#","WinForms","Docker","Kubernetes","Apache Kafka","Apache NiFi","Microservices","Micro-frontend","CI/CD"]
                         }
                     }
                 }

@@ -4,12 +4,19 @@
             "id": 1,
             "component": "ArticlePortfolio",
             "locales": {
+                "id": {
+                    "title": null,
+                    "category_all": "Semua",
+                    "category_productivity": "Aplikasi Web",
+                    "category_social": "Aplikasi Desktop",
+                    "category_utilities": "Aplikasi Mobile"
+                },
                 "en": {
                     "title": null,
                     "category_all": "All",
                     "category_productivity": "Web Apps",
-                    "category_social": "Mobile App",
-                    "category_utilities": "Desktop Apps"
+                    "category_social": "Desktop App",
+                    "category_utilities": "Mobile Apps"
                 }
             },
             "settings": {

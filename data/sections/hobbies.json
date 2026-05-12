@@ -4,10 +4,12 @@
             "id": 1,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": null},
-                "es": {"title": null},
-                "fr": {"title": null},
-                "zh": {"title": null}
+                "id": {
+                    "title": "Aktivitas"
+                },
+                "en": {
+                    "title": "Activities"
+                }
             },
             "settings": {
                 "order_items_by": "id",
@@ -22,29 +24,19 @@
                     "id": 1,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-users",
-                    "fallbackFaIconColor": "#FF6384",
-                    "percentage": 15,
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#36A2EB",
+                    "percentage": 35,
                     "locales": {
+                        "id": {
+                        "title": "Coding & Development",
+                        "description": "Mengembangkan aplikasi web, backend system, dan mengeksplorasi teknologi baru.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "Family Time",
-                            "description": "Time spent with cherished loved ones.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Familia",
-                            "description": "Tiempo con seres queridos apreciados.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Famille",
-                            "description": "Temps passé avec des proches chéris.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "家人和朋友",
-                            "description": "与珍爱的亲人共度时光，创造终身难忘的回忆。",
-                            "level": null
+                        "title": "Coding & Development",
+                        "description": "Building web applications, backend systems, and exploring new technologies.",
+                        "level": null
                         }
                     }
                 },
@@ -52,29 +44,19 @@
                     "id": 2,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-tasks",
-                    "fallbackFaIconColor": "#36A2EB",
-                    "percentage": 29,
+                    "fallbackFaIcon": "fa-solid fa-server",
+                    "fallbackFaIconColor": "#FF6384",
+                    "percentage": 20,
                     "locales": {
+                        "id": {
+                        "title": "DevOps & Infrastructure",
+                        "description": "Mempelajari deployment workflow, containerization, dan cloud infrastructure.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "My Projects",
-                            "description": "Pursuing my creative endeavors.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Mis Proyectos",
-                            "description": "Persiguiendo mis proyectos creativos.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Mes Projets",
-                            "description": "Poursuivre mes projets créatifs.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "个人项目",
-                            "description": "追求创意事业，将想法变成现实。",
-                            "level": null
+                        "title": "DevOps & Infrastructure",
+                        "description": "Learning deployment workflows, containerization, and cloud infrastructure.",
+                        "level": null
                         }
                     }
                 },
@@ -82,29 +64,19 @@
                     "id": 3,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-couch",
-                    "fallbackFaIconColor": "#FFCD56",
-                    "percentage": 11,
+                    "fallbackFaIcon": "fa-solid fa-brain",
+                    "fallbackFaIconColor": "#C5B0FF",
+                    "percentage": 15,
                     "locales": {
+                        "id": {
+                        "title": "AI & Research",
+                        "description": "Mengeksplorasi Artificial Intelligence, Generative AI, dan automation tools.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "Relaxing",
-                            "description": "Being lazy and proud of it :)",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Relajación",
-                            "description": "Vagueando y orgulloso de ello :)",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Détente",
-                            "description": "Flemmard et fier de l’être :)",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "放松",
-                            "description": "摆烂并为此自豪 :)",
-                            "level": null
+                        "title": "AI & Research",
+                        "description": "Exploring Artificial Intelligence, Generative AI, and automation tools.",
+                        "level": null
                         }
                     }
                 },
@@ -113,28 +85,18 @@
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-book",
-                    "fallbackFaIconColor": "#C5B0FF",
-                    "percentage": 9,
+                    "fallbackFaIconColor": "#8EE3C5",
+                    "percentage": 10,
                     "locales": {
+                        "id": {
+                        "title": "Learning",
+                        "description": "Belajar teknologi baru melalui dokumentasi, course, dan hands-on project.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "Studying",
-                            "description": "Embarking on a continuous journey of learning.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Estudio",
-                            "description": "Embarcando en un viaje continuo de aprendizaje.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Études",
-                            "description": "Entamer un voyage continu d'apprentissage.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "学习",
-                            "description": "踏上持续的学习和自我提升之旅。",
-                            "level": null
+                        "title": "Learning",
+                        "description": "Learning new technologies through documentation, courses, and hands-on projects.",
+                        "level": null
                         }
                     }
                 },
@@ -142,29 +104,19 @@
                     "id": 5,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-dumbbell",
-                    "fallbackFaIconColor": "#8EE3C5",
-                    "percentage": 17,
+                    "fallbackFaIcon": "fa-solid fa-palette",
+                    "fallbackFaIconColor": "#FFCD56",
+                    "percentage": 10,
                     "locales": {
+                        "id": {
+                        "title": "UI/UX Design",
+                        "description": "Membuat wireframe, prototype, dan desain interface menggunakan Figma.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "Exercising",
-                            "description": "Dedicating time to physical well-being.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Ejercicio",
-                            "description": "Dedicando tiempo al bienestar físico.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Exercice",
-                            "description": "Consacrer du temps au bien-être physique.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "锻炼",
-                            "description": "致力于身体健康，培养健康的生活方式。",
-                            "level": null
+                        "title": "UI/UX Design",
+                        "description": "Creating wireframes, prototypes, and interface designs using Figma.",
+                        "level": null
                         }
                     }
                 },
@@ -172,29 +124,19 @@
                     "id": 6,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-utensils",
+                    "fallbackFaIcon": "fa-solid fa-gamepad",
                     "fallbackFaIconColor": "#EEB79A",
-                    "percentage": 19,
+                    "percentage": 10,
                     "locales": {
+                        "id": {
+                        "title": "Gaming & Entertainment",
+                        "description": "Mengisi waktu luang dengan gaming, hiburan, dan refreshing setelah bekerja.",
+                        "level": null
+                        },
                         "en": {
-                            "title": "Cooking",
-                            "description": "Creating culinary masterpieces.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Cocina",
-                            "description": "Creando obras maestras culinarias.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Cuisine",
-                            "description": "Créer des chefs-d'œuvre culinaires.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "烹饪",
-                            "description": "创造烹饪杰作，在每道菜肴中注入风味。",
-                            "level": null
+                        "title": "Gaming & Entertainment",
+                        "description": "Spending free time gaming, entertainment, and relaxing after work.",
+                        "level": null
                         }
                     }
                 }
@@ -204,17 +146,11 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
+                "id": {
+                    "title": "Minat Lainnya"
+                },
                 "en": {
-                    "title": "Side pursuits"
-                },
-                "es": {
-                    "title": "Exploraciones"
-                },
-                "fr": {
-                    "title": "Intérêts annexes"
-                },
-                "zh": {
-                    "title": "额外兴趣"
+                    "title": "Side Pursuits"
                 }
             },
             "settings": {
@@ -230,28 +166,18 @@
                     "id": 1,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-paint-brush",
+                    "fallbackFaIcon": "fa-solid fa-robot",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Artificial Intelligence",
+                            "description": "Mengeksplorasi <strong>Artificial Intelligence</strong>, <strong>Generative AI</strong>, automation tools, dan implementasi AI untuk software development.",
+                            "level": null
+                        },
                         "en": {
-                            "title": "User Experience Design",
-                            "description": "Proficient in crafting user-centric digital experiences. Adept at making technology intuitive and accessible, enhancing user satisfaction.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Diseño de Experiencia de Usuario",
-                            "description": "Destacada habilidad en crear experiencias digitales centradas en el usuario. Experto en hacer que la tecnología sea intuitiva y accesible, mejorando la satisfacción del usuario.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Conception d'Expérience Utilisateur",
-                            "description": "Compétent dans la création d'expériences numériques centrées sur l'utilisateur. Habile à rendre la technologie intuitive et accessible, améliorant la satisfaction des utilisateurs.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "用户体验设计",
-                            "description": "擅长创造以用户为中心的数字体验。精通使技术直观易用，提升用户满意度。",
+                            "title": "Artificial Intelligence",
+                            "description": "Exploring <strong>Artificial Intelligence</strong>, <strong>Generative AI</strong>, automation tools, and AI implementation for software development.",
                             "level": null
                         }
                     }
@@ -264,24 +190,14 @@
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Programming",
+                            "description": "Mengeksplorasi coding, algoritma, backend architecture, dan membangun solusi software untuk kebutuhan enterprise.",
+                            "level": null
+                        },
                         "en": {
                             "title": "Programming",
-                            "description": "Exploring code, algorithms, and building software solutions for real-world challenges.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Programación",
-                            "description": "Explorar código, algoritmos y desarrollar soluciones de software para desafíos del mundo real.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Programmation",
-                            "description": "Exploration du code, des algorithmes et création de solutions logicielles pour des défis réels.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "编程",
-                            "description": "探索代码、算法，为现实世界的挑战构建软件解决方案。",
+                            "description": "Exploring coding, algorithms, backend architecture, and building software solutions for enterprise needs.",
                             "level": null
                         }
                     }
@@ -290,28 +206,18 @@
                     "id": 3,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-music",
+                    "fallbackFaIcon": "fa-solid fa-cloud",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Cloud & DevOps",
+                            "description": "Mempelajari cloud infrastructure, deployment automation, containerization, dan workflow CI/CD.",
+                            "level": null
+                        },
                         "en": {
-                            "title": "Music",
-                            "description": "Playing instruments, composing, and embracing the harmony of diverse musical genres.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Música",
-                            "description": "Tocar instrumentos, componer y abrazar la armonía de diversos géneros musicales.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Musique",
-                            "description": "Jouer d'instruments, composer et apprécier l'harmonie de genres musicaux variés.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "音乐",
-                            "description": "演奏乐器，作曲，融合多种音乐流派的和谐。",
+                            "title": "Cloud & DevOps",
+                            "description": "Learning cloud infrastructure, deployment automation, containerization, and CI/CD workflows.",
                             "level": null
                         }
                     }
@@ -320,28 +226,18 @@
                     "id": 4,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-users",
+                    "fallbackFaIcon": "fa-solid fa-database",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Data Engineering",
+                            "description": "Tertarik pada data warehouse, ETL process, data pipeline, dan integrasi sistem enterprise.",
+                            "level": null
+                        },
                         "en": {
-                            "title": "User Research",
-                            "description": "Delving into user behavior and insights to shape effective design strategies.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Investigación de Usuarios",
-                            "description": "Profundizar en el comportamiento y perspectivas del usuario para definir estrategias de diseño efectivas.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Recherche Utilisateur",
-                            "description": "Explorer le comportement et les perceptions des utilisateurs pour façonner des stratégies de conception efficaces.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "用户研究",
-                            "description": "深入研究用户行为和见解，塑造有效的设计策略。",
+                            "title": "Data Engineering",
+                            "description": "Interested in data warehouse, ETL processes, data pipelines, and enterprise system integration.",
                             "level": null
                         }
                     }
@@ -354,24 +250,14 @@
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Frontend Development",
+                            "description": "Membangun interface modern dan interaktif menggunakan <strong>React.js</strong>, <strong>Vue.js</strong>, dan teknologi frontend modern.",
+                            "level": null
+                        },
                         "en": {
-                            "title": "Front-End Development",
-                            "description": "Crafting interactive web interfaces using modern technologies for seamless user experiences.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Desarrollo Front-End",
-                            "description": "Elaborar interfaces web interactivas utilizando tecnologías modernas para experiencias de usuario fluidas.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Développement Frontal",
-                            "description": "Conception d'interfaces web interactives utilisant des technologies modernes pour des expériences utilisateur fluides.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "前端开发",
-                            "description": "使用现代技术打造交互式网页界面，实现无缝的用户体验。",
+                            "title": "Frontend Development",
+                            "description": "Building modern and interactive interfaces using <strong>React.js</strong>, <strong>Vue.js</strong>, and modern frontend technologies.",
                             "level": null
                         }
                     }
@@ -384,29 +270,19 @@
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "UI/UX Design",
+                            "description": "Membuat wireframe, interactive prototype, dan desain interface menggunakan <strong>Figma</strong>.",
+                            "level": null
+                        },
                         "en": {
-                            "title": "Visual Arts",
-                            "description": "Exploring visual aesthetics, graphic design, and expressing ideas through artistic creativity.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Artes Visuales",
-                            "description": "Explorar la estética visual, el diseño gráfico y expresar ideas a través de la creatividad artística.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Arts Visuels",
-                            "description": "Exploration de l'esthétique visuelle, du design graphique et expression d'idées par la créativité artistique.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "视觉艺术",
-                            "description": "探索视觉美学，平面设计，通过艺术创意表达思想。",
+                            "title": "UI/UX Design",
+                            "description": "Creating wireframes, interactive prototypes, and interface designs using <strong>Figma</strong>.",
                             "level": null
                         }
                     }
                 }
             ]
-        }
+            }
     ]
 }

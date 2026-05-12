@@ -3,7 +3,14 @@
         {
             "id": 1,
             "component": "ArticleSkills",
-            "locales": {},
+            "locales": {
+                "id": {
+                    "title": "Core Skills"
+                },
+                "en": {
+                    "title": "Core Skills"
+                }
+            },
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
@@ -17,14 +24,17 @@
                     "id": 1,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-paint-roller",
+                    "fallbackFaIcon": "fa-solid fa-code",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Full-Stack Development",
+                            "description": "Berpengalaman mengembangkan <strong>aplikasi frontend dan backend</strong> menggunakan teknologi modern untuk kebutuhan enterprise."
+                        },
                         "en": {
-                            "title": "Design Principles",
-                            "description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging.",
-                            "level": null
+                            "title": "Full-Stack Development",
+                            "description": "Experienced in developing <strong>frontend and backend applications</strong> using modern technologies for enterprise solutions."
                         }
                     }
                 },
@@ -32,14 +42,17 @@
                     "id": 2,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-mobile-alt",
+                    "fallbackFaIcon": "fa-solid fa-server",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Microservices Architecture",
+                            "description": "Berpengalaman membangun dan mengelola sistem berbasis <strong>microservices</strong> dan <strong>micro frontend</strong> untuk aplikasi scalable."
+                        },
                         "en": {
-                            "title": "Responsive Layouts",
-                            "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience.",
-                            "level": null
+                            "title": "Microservices Architecture",
+                            "description": "Experienced in building and maintaining <strong>microservices</strong> and <strong>micro frontend</strong> architectures for scalable applications."
                         }
                     }
                 },
@@ -47,14 +60,17 @@
                     "id": 3,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-vector-square",
+                    "fallbackFaIcon": "fa-solid fa-cloud",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "CI/CD & Deployment",
+                            "description": "Berpengalaman dalam deployment workflow, <strong>containerization</strong>, dan <strong>CI/CD pipeline</strong> menggunakan Docker dan Kubernetes."
+                        },
                         "en": {
-                            "title": "Wireframing",
-                            "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design.",
-                            "level": null
+                            "title": "CI/CD & Deployment",
+                            "description": "Experienced in deployment workflows, <strong>containerization</strong>, and <strong>CI/CD pipelines</strong> using Docker and Kubernetes."
                         }
                     }
                 },
@@ -62,14 +78,17 @@
                     "id": 4,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-check-double",
+                    "fallbackFaIcon": "fa-solid fa-database",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "Database Management",
+                            "description": "Berpengalaman dalam desain database relasional, optimasi query, serta integrasi data enterprise."
+                        },
                         "en": {
-                            "title": "Usability Testing",
-                            "description": "Enhancing user experiences through comprehensive usability testing.",
-                            "level": null
+                            "title": "Database Management",
+                            "description": "Experienced in relational database design, query optimization, and enterprise data integration."
                         }
                     }
                 },
@@ -77,14 +96,17 @@
                     "id": 5,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-expand-arrows-alt",
+                    "fallbackFaIcon": "fa-solid fa-network-wired",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "System Integration",
+                            "description": "Berpengalaman melakukan integrasi API, data warehouse, ETL process, dan komunikasi antar sistem enterprise."
+                        },
                         "en": {
-                            "title": "Interaction Design",
-                            "description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability.",
-                            "level": null
+                            "title": "System Integration",
+                            "description": "Experienced in API integration, data warehouse, ETL processes, and enterprise system communication."
                         }
                     }
                 },
@@ -92,14 +114,17 @@
                     "id": 6,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIcon": "fa-solid fa-palette",
                     "fallbackFaIconColor": null,
                     "percentage": null,
                     "locales": {
+                        "id": {
+                            "title": "UI/UX & Prototyping",
+                            "description": "Berpengalaman membuat <strong>wireframe</strong>, <strong>interactive prototype</strong>, dan desain UI menggunakan <strong>Figma</strong>."
+                        },
                         "en": {
-                            "title": "Prototyping",
-                            "description": "Skilled in translating concepts into interactive prototypes for testing and refinement.",
-                            "level": null
+                            "title": "UI/UX & Prototyping",
+                            "description": "Experienced in creating <strong>wireframes</strong>, <strong>interactive prototypes</strong>, and UI designs using <strong>Figma</strong>."
                         }
                     }
                 }
@@ -109,8 +134,12 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
-                "id": {"title": "Frontend Stack"},
-                "en": {"title": "Frontend Stack"}
+                "id": {
+                    "title": "Frontend Stack"
+                },
+                "en": {
+                    "title": "Frontend Stack"
+                }
             },
             "settings": {
                 "order_items_by": "percentage",
@@ -123,85 +152,127 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2019, "month": 4},
+                    "dateStart": {
+                        "year": 2019,
+                        "month": 4
+                    },
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-html5",
                     "fallbackFaIconColor": null,
                     "percentage": 95,
                     "locales": {
+                        "id": {
+                            "title": "HTML5",
+                            "description": "Berpengalaman menggunakan elemen dan fitur modern <strong>HTML5</strong> untuk membangun struktur web yang semantic dan responsive."
+                        },
                         "en": {
-                            "title": "HTML 5",
-                            "description": "Experienced with HTML5 elements and features."
+                            "title": "HTML5",
+                            "description": "Experienced in using modern <strong>HTML5</strong> elements and features to build semantic and responsive web structures."
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "dateStart": {"year": 2021, "month": 4},
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 4
+                    },
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-css3-alt",
                     "fallbackFaIconColor": null,
                     "percentage": 90,
                     "locales": {
+                        "id": {
+                        "title": "CSS3",
+                        "description": "Mahir menggunakan <strong>CSS3</strong> untuk responsive layout, flexbox, animation, dan modern UI styling."
+                        },
                         "en": {
-                            "title": "CSS 3",
-                            "description": "Skilled in advanced CSS3 techniques like flexbox and animations."
+                        "title": "CSS3",
+                        "description": "Skilled in using <strong>CSS3</strong> for responsive layouts, flexbox, animations, and modern UI styling."
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "dateStart": {"year": 2017, "month": 8},
+                    "dateStart": {
+                        "year": 2019,
+                        "month": 8
+                    },
                     "img": null,
-                    "fallbackFaIcon": "fa-brands fa-js-square",
+                    "fallbackFaIcon": "fa-brands fa-js",
                     "fallbackFaIconColor": null,
-                    "percentage": 85,
+                    "percentage": 90,
                     "locales": {
+                        "id": {
+                        "title": "JavaScript & TypeScript",
+                        "description": "Berpengalaman membangun aplikasi web interaktif dan scalable menggunakan <strong>JavaScript</strong> dan <strong>TypeScript</strong>."
+                        },
                         "en": {
-                            "title": "Javascript",
-                            "description": "Skilled in JavaScript for dynamic, interactive web applications."
+                        "title": "JavaScript & TypeScript",
+                        "description": "Experienced in building interactive and scalable web applications using <strong>JavaScript</strong> and <strong>TypeScript</strong>."
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "dateStart": {"year": 2017, "month": 3},
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 1
+                    },
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-vuejs",
                     "fallbackFaIconColor": null,
-                    "percentage": 100,
+                    "percentage": 95,
                     "locales": {
+                        "id": {
+                        "title": "Vue.js",
+                        "description": "Berpengalaman membangun aplikasi enterprise menggunakan <strong>Vue.js</strong>, <strong>CoreUI</strong>, dan arsitektur micro frontend."
+                        },
                         "en": {
-                            "title": "Vue 3",
-                            "description": "Capable of building and deploying complex Vue applications."
+                        "title": "Vue.js",
+                        "description": "Experienced in building enterprise applications using <strong>Vue.js</strong>, <strong>CoreUI</strong>, and micro frontend architectures."
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "dateStart": {"year": 2024, "month": 1},
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 1
+                    },
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-react",
                     "fallbackFaIconColor": null,
-                    "percentage": 75,
+                    "percentage": 90,
                     "locales": {
+                        "id": {
+                        "title": "React.js",
+                        "description": "Berpengalaman membangun UI interaktif dan scalable menggunakan <strong>React.js</strong> dengan component-based architecture dan modern hooks."
+                        },
                         "en": {
-                            "title": "React",
-                            "description": "Experienced in building interactive UIs with React, using hooks and component-based architecture."
+                        "title": "React.js",
+                        "description": "Experienced in building interactive and scalable UIs using <strong>React.js</strong> with component-based architecture and modern hooks."
                         }
                     }
                 },
                 {
                     "id": 6,
-                    "dateStart": {"year": 2022, "month": 11},
+                    "dateStart": {
+                        "year": 2020,
+                        "month": 6
+                    },
                     "img": null,
-                    "fallbackFaIcon": "fa-brands fa-angular",
+                    "fallbackFaIcon": "fa-solid fa-palette",
                     "fallbackFaIconColor": null,
-                    "percentage": 75,
+                    "percentage": 80,
                     "locales": {
+                        "id": {
+                        "title": "UI/UX & Figma",
+                        "description": "Berpengalaman membuat <strong>wireframe</strong>, <strong>interactive prototype</strong>, dan desain UI menggunakan <strong>Figma</strong>."
+                        },
                         "en": {
-                            "title": "Angular",
-                            "description": ""
+                        "title": "UI/UX & Figma",
+                        "description": "Experienced in creating <strong>wireframes</strong>, <strong>interactive prototypes</strong>, and UI designs using <strong>Figma</strong>."
                         }
                     }
                 }
@@ -211,10 +282,8 @@
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Backend Stack"},
-                "es": {"title": "Stack de Backend"},
-                "fr": {"title": "Stack Backend"},
-                "zh": {"title": "后端技术栈"}
+                "id": {"title": "Backend Stack"},
+                "en": {"title": "Backend Stack"}
             },
             "settings": {
                 "order_items_by": "id",
@@ -233,51 +302,103 @@
                     "fallbackFaIconColor": null,
                     "percentage": 85,
                     "locales": {
+                        "id": {
+                            "title": "SQL & NoSQL",
+                            "description": "Berpengalaman dalam desain database relasional, optimasi query, dan manajemen data enterprise menggunakan <strong>SQL Server</strong>, <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Oracle</strong>, <strong>SQLite</strong>, <strong>Redis</strong>, dan <strong>MongoDB</strong>."
+                        },
                         "en": {
-                            "title": "MySQL",
-                            "description": "Skilled in managing MySQL databases, including schema design and query optimization."
+                            "title": "SQL & NoSQL",
+                            "description": "Experienced in relational database design, query optimization, and enterprise data management using <strong>SQL Server</strong>, <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Oracle</strong>, <strong>SQLite</strong>, <strong>Redis</strong>, and <strong>MongoDB</strong>."
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "dateStart": {"year": 2021, "month": 1},
+                    "dateStart": {"year": 2020,"month": 1},
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-php",
                     "fallbackFaIconColor": null,
-                    "percentage": 80,
+                    "percentage": 85,
                     "locales": {
+                        "id": {
+                        "title": "PHP & Laravel",
+                        "description": "Berpengalaman membangun aplikasi web menggunakan <strong>PHP</strong> dan <strong>Laravel</strong> untuk berbagai kebutuhan enterprise."
+                        },
                         "en": {
-                            "title": "PHP",
-                            "description": "Experienced in building dynamic web apps with PHP, including server-side logic and database integration."
+                        "title": "PHP & Laravel",
+                        "description": "Experienced in building enterprise web applications using <strong>PHP</strong> and <strong>Laravel</strong>."
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "dateStart": {"year": 2022, "month": 1},
+                    "dateStart": {"year": 2022,"month": 1},
                     "img": null,
-                    "fallbackFaIcon": "fa-brands fa-laravel",
+                    "fallbackFaIcon": "fa-brands fa-node-js",
                     "fallbackFaIconColor": null,
-                    "percentage": 55,
+                    "percentage": 90,
                     "locales": {
+                        "id": {
+                            "title": "Node.js & Express.js",
+                            "description": "Berpengalaman membangun <strong>REST API</strong>, <strong>microservices</strong>, dan backend system menggunakan <strong>Node.js</strong> dan <strong>Express.js</strong>."
+                        },
                         "en": {
-                            "title": "Laravel",
-                            "description": ""
+                            "title": "Node.js & Express.js",
+                            "description": "Experienced in building <strong>REST APIs</strong>, <strong>microservices</strong>, and backend systems using <strong>Node.js</strong> and <strong>Express.js</strong>."
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "dateStart": {"year": 2023, "month": 1},
+                    "dateStart": {"year": 2024,"month": 1},
                     "img": null,
-                    "fallbackFaIcon": "fa-brands fa-node",
+                    "fallbackFaIcon": "fa-solid fa-code",
                     "fallbackFaIconColor": null,
-                    "percentage": 40,
+                    "percentage": 85,
                     "locales": {
+                        "id": {
+                            "title": "ASP.NET & C#",
+                            "description": "Berpengalaman mengembangkan aplikasi enterprise berbasis <strong>ASP.NET</strong>, <strong>Web API</strong>, dan <strong>C# WinForms</strong>."
+                        },
                         "en": {
-                            "title": "NodeJS",
-                            "description": ""
+                            "title": "ASP.NET & C#",
+                            "description": "Experienced in enterprise application development using <strong>ASP.NET</strong>, <strong>Web API</strong>, and <strong>C# WinForms</strong>."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2023,"month": 6},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-cloud",
+                    "fallbackFaIconColor": null,
+                    "percentage": 85,
+                    "locales": {
+                        "id": {
+                            "title": "Docker & Kubernetes",
+                            "description": "Berpengalaman dalam deployment workflow, containerization, dan CI/CD menggunakan Docker dan Kubernetes."
+                        },
+                        "en": {
+                            "title": "Docker & Kubernetes",
+                            "description": "Experienced in deployment workflows, containerization, and CI/CD using Docker and Kubernetes."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "dateStart": {"year": 2025,"month": 1},
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-network-wired",
+                    "fallbackFaIconColor": null,
+                    "percentage": 80,
+                    "locales": {
+                        "id": {
+                            "title": "Apache Kafka & Apache NiFi",
+                            "description": "Berpengalaman dalam integrasi data, ETL process, dan data pipeline untuk enterprise data warehouse."
+                        },
+                        "en": {
+                            "title": "Apache Kafka & Apache NiFi",
+                            "description": "Experienced in data integration, ETL processes, and enterprise data warehouse pipelines."
                         }
                     }
                 }
